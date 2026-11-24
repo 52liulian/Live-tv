@@ -1,0 +1,9 @@
+# IPTV 直播源聚合脚本依赖（Python 3.11+）
+# 说明：speed_test_mode = "full" 时额外需要系统安装 ffmpeg/ffprobe，非 Python 包，不在此安装。
+# 全项目第三方导入仅以下 5 项，其余均为标准库。
+requests>=2.31.0
+aiohttp>=3.9.0
+m3u8>=6.0.0
+opencc-python-reimplemented>=0.1.7
+# utils/ip_checker 读取 data/qqwry.ipdb，包名与导入名不同（import ipdb）
+ipip-ipdb>=1.6.1

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="gloss" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 圆角正方形底：常用主题紫 -->
+  <rect x="0" y="0" width="256" height="256" rx="58" fill="#747bff"/>
+  <rect x="0" y="0" width="256" height="256" rx="58" fill="url(#gloss)"/>
+
+  <!-- 播放按钮：圆环 + 圆角三角 -->
+  <circle cx="128" cy="128" r="74" fill="#ffffff" fill-opacity="0.12"/>
+  <circle cx="128" cy="128" r="74" fill="none" stroke="#ffffff" stroke-width="9" stroke-opacity="0.92"/>
+  <path d="M 110 96 L 158 122 Q 164 128 158 134 L 110 160 Q 103 164 103 156 L 103 100 Q 103 92 110 96 Z"
+        fill="#ffffff" stroke="#ffffff" stroke-width="10" stroke-linejoin="round"/>
+</svg>

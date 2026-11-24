@@ -1,0 +1,56 @@
+# Python 字节码与工具缓存
+__pycache__/
+*.py[cod]
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+
+# 构建产物
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# 日志文件
+*.log
+run_debug.log
+run_default.log
+
+# 手工编辑前的备份
+*.bak
+
+# 本地环境变量（可能含密钥，不提交）
+.env
+.env.*
+
+# 更新引擎产物：每轮变化,不提交,结果只通过 GitHub Pages 发布
+# （Pages 由 Actions 的 pages-site/ artifact 部署,不依赖 git 提交;
+#   注意:仓库 raw 直链与 jsDelivr 加速线路依赖 output/ 入库,整体忽略后不可用）
+output/
+
+# 本地构建的 Pages 站点
+pages-site/
+
+# 编辑器与工具配置
+.vscode/
+.idea/
+.workbuddy/
+.trae/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+utils/
+Exclusive/
